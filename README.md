@@ -2,7 +2,7 @@
 **Dots And Boxes** je popularna igra između dva igrača. Nju je prvi put opisao francuski matematičar **Édouard Lucas** 1889. godine. Složenost igre zavisi od dimenzije mreže za igru odnosno broja tačaka. Matematičari svrstavaju ovu igru u probleme NP težine.
 
 
-| ![tabla](https://i.imgur.com/4pJVIzW.png =150x) |
+| <img src="https://i.imgur.com/4pJVIzW.png" width="150">|
 |:-----------------------------------------------:|
 | *Mreža za igru 4x4* |
 ## Opis igre
@@ -13,15 +13,15 @@ Igra se završava kada su svi kvadrati zatvoreni a pobednik je onaj igrač koji 
 ### Primer igre
 Kako bi se na najlakši način shvatila pravila, dat je primer odigrane partije između plavog i crvenog igrača u kojoj je plavi pobedio sa rezultatom **3:1**.
 
-| ![](https://i.imgur.com/BmFm0BI.png =150x) | ![](https://i.imgur.com/zr726xw.png =150x) | ![](https://i.imgur.com/vcYdGvc.png =150x) | ![](https://i.imgur.com/VXLzXWy.png =150x) |
+| <img src="https://i.imgur.com/BmFm0BI.png" width="150">| <img src="https://i.imgur.com/zr726xw.png" width="150"> | <img src="https://i.imgur.com/vcYdGvc.png" width="150"> | <img src="https://i.imgur.com/VXLzXWy.png" width="150"> |
 | :--:| :--:| :--:| :--:|
 | *1. potez plavog*| *1. potez crvenog*| *2. potez plavog* | *2. potez crvenog* |
 
-| ![](https://i.imgur.com/4B8WZ2o.png =150x) | ![](https://i.imgur.com/3LD0V17.png =150x) | ![](https://i.imgur.com/SovCrGx.png =150x) | ![](https://i.imgur.com/fZDtgLr.png =150x) | 
+| <img src="https://i.imgur.com/4B8WZ2o.png" width="150"> | <img src="https://i.imgur.com/3LD0V17.png" width="150"> | <img src="https://i.imgur.com/SovCrGx.png" width="150"> | <img src="https://i.imgur.com/fZDtgLr.png" width="150"> | 
 | :--:| :--:| :--:| :--:|
 | *3. potez plavog* | *3. potez crvenog* | *4. potez plavog a)* | *4. potez plavog b)* |
 
-| ![](https://i.imgur.com/ZFXYKYr.png =150x) | ![](https://i.imgur.com/7rsyf2H.png =150x) | ![](https://i.imgur.com/QhzQowU.png =150x) | ![](https://i.imgur.com/yBZGOh1.png =150x) | 
+| <img src="https://i.imgur.com/ZFXYKYr.png" width="150"> | <img src="https://i.imgur.com/7rsyf2H.png" width="150"> | <img src="https://i.imgur.com/QhzQowU.png" width="150"> | <img src="https://i.imgur.com/yBZGOh1.png" width="150"> | 
 | :--:| :--:| :--:| :--:|
 | *4. potez crvenog a)* | *4. potez crvenog b)* | *5. potez plavog a)* | *5. potez plavog b)* |
 
@@ -40,7 +40,7 @@ Na primer, sledeća pozicija u igri predstavljena je vektorom:
 <tr><th> Pozicija </th><th>Vektorska reprezentacija</th></tr>
 <tr><td>
 
-![](https://i.imgur.com/VXLzXWy.png =150x)
+<img src="https://i.imgur.com/VXLzXWy.png" width="150">
 
 
 </td><td>
@@ -55,7 +55,7 @@ Pozicija ivica susednih kvadrata zavise od dimenzije mreže kao i od toga da li 
 <tr><th>Horizontalna ivica </th><th>Pozicije</th></tr>
 <tr><td>
 
-![](https://i.imgur.com/8Wmv5EF.png =150x) 
+<img src="https://i.imgur.com/8Wmv5EF.png" width="150"> 
 
 
 </td><td>
@@ -77,7 +77,7 @@ Pozicija ivica susednih kvadrata zavise od dimenzije mreže kao i od toga da li 
 <tr><th>Vertikalna ivica </th><th>Pozicije</th></tr>
 <tr><td>
 
-![](https://i.imgur.com/JV99VpI.png =230x)
+<img src="https://i.imgur.com/JV99VpI.png" width="230">
 
 
 
@@ -123,7 +123,7 @@ close-boxes
 </td>
 <td>
 
-![](https://i.imgur.com/7rsyf2H.png =100x)
+<img src="https://i.imgur.com/7rsyf2H.png" width="100">
 
 </td>
 <td>
@@ -137,7 +137,7 @@ close-boxes
 </td>
 <td>
 
-![](https://i.imgur.com/yBZGOh1.png =100x)
+<img src="https://i.imgur.com/yBZGOh1.png" width="100">
 
 </td>
 </table>
@@ -158,7 +158,7 @@ rand-free-move
 </td>
 <td>
 
-![](https://i.imgur.com/zr726xw.png =100x)
+<img src="https://i.imgur.com/zr726xw.png" width="100">
 
 </td>
 <td>
@@ -168,7 +168,7 @@ rand-free-move
 </td>
 <td>
 
-![](https://i.imgur.com/vcYdGvc.png =100x)
+<img src="https://i.imgur.com/vcYdGvc.png" width="100">
 
 </td>
 </table>
@@ -189,7 +189,7 @@ best-unplayed-move
 </td>
 <td>
 
-![](https://i.imgur.com/4B8WZ2o.png =100x)
+<img src="https://i.imgur.com/4B8WZ2o.png" width="100">
 
 </td>
 <td>
@@ -199,7 +199,7 @@ best-unplayed-move
 </td>
 <td>
 
-![](https://i.imgur.com/3LD0V17.png =100x)
+<img src="https://i.imgur.com/3LD0V17.png" width="100">
 
 </td>
 </table>
